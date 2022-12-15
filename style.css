@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: fantasy;
+    font-family: sans-serif;
 }
 
 body {
@@ -13,8 +13,8 @@ body {
 
 
 li, a, button {
-    font-family: fantasy;
-    font-weight: 500;
+    font-family: sans-serif;
+    font-weight: 400;
     font-size: 16px;
     color: white;
     text-decoration: none;
@@ -96,7 +96,6 @@ a.activea,a:hover {
     transition: 1s;
     width: 10px;
     height: 5px;
-    text-decoration: none;
 }
 
 
@@ -105,14 +104,12 @@ button {
     font-size: larger;
 }
 
-img {
-    margin-bottom: 20px;
-}
 
 article{
-    margin: 20px;
+    margin-top: 20px;
     padding: 60px;
     background-color: #092B58;
+    width: 600px;
 }
 
 p {
@@ -128,6 +125,9 @@ h1{
     font-weight: 400;
 }
 
+pre {
+    color: white;
+}
 section {
     background: url(img/eerste\ fot.png) no-repeat;
     background-size: cover;
