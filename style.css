@@ -2,10 +2,13 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: fantasy;
 }
 
 body {
     background: #306095;
+    padding: 60px;
+    margin: 40px;
 }
 
 
@@ -29,8 +32,6 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: gray;
-
-
 }
 
 ul {
@@ -40,6 +41,7 @@ ul {
 h1 {
     color: white;
 }
+
 .logo {
     color: white;
     text-decoration: none;
@@ -91,9 +93,10 @@ nav ul li a {
 }
 a.activea,a:hover {
     background: #306095;
-    transition: 0.5s;
+    transition: 1s;
     width: 10px;
     height: 5px;
+    text-decoration: none;
 }
 
 
@@ -103,23 +106,30 @@ button {
 }
 
 img {
-    background-color: #092B58;
     margin-bottom: 20px;
 }
 
-article {
-    width: 60px;
-    height: 40px;
+article{
+    margin: 20px;
+    padding: 60px;
+    background-color: #092B58;
+}
+
+p {
+    color: white;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 250%;
+    margin-bottom: 20px;
+    font-weight: 400;
 }
 
 section {
-    background: url(img/eerste\ foto.png) no-repeat;
+    background: url(img/eerste\ fot.png) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
-
-
-
-
-
-
