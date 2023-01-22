@@ -85,49 +85,66 @@ header ul {
 }
 
 
-nav ul li a {
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-}
-a.activea,a:hover {
-    background: #306095;
-    transition: 1s;
-    width: 10px;
-    height: 5px;
-}
-
 
 button {
-    background-color: gray;
+    background-color: white;
     font-size: larger;
 }
 
 
-article{
-    margin-top: 20px;
-    padding: 60px;
+.info {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.infoTitle {
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.block {
+    width: 400px;
+    flex-shrink: 1;
+    flex-grow: 1;
     background-color: #092B58;
-    width: 600px;
+    color: white;
+    padding: 20px;
+    border-radius: 0.3pc;
 }
 
-p {
+
+footer {
+    height: 120px;
+    background: #092B58;
+    display: flex;
     color: white;
-    margin-left: 0px;
+    justify-content: center
     align-items: center;
-    justify-content: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 0.3pc;
 }
 
-h1{
-    font-size: 250%;
-    margin-bottom: 20px;
-    font-weight: 400;
+.footerNav {
+    list-style: none;
 }
 
-pre {
+.footerNavItem {
+    font-size: 80%;
+    font-family: sans-serif;
     color: white;
 }
+
+
+.footerNavItem a {
+    color: white;
+    text-decoration: none;
+}
+
 section {
     background: url(img/eerste\ fot.png) no-repeat;
     background-size: cover;
