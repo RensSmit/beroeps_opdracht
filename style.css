@@ -42,6 +42,11 @@ h1 {
     color: white;
 }
 
+h4 {
+    display: flex;
+    margin-top: 20px;
+}
+
 .logo {
     color: white;
     text-decoration: none;
@@ -110,6 +115,7 @@ button {
     flex-shrink: 1;
     flex-grow: 1;
     background-color: #092B58;
+    
     color: white;
     padding: 20px;
     border-radius: 0.3pc;
