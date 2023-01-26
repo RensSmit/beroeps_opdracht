@@ -32,14 +32,11 @@
       if ( !initializing && this.init )
         this.init.apply(this, arguments);
     }
-   
-    // Populate our constructed prototype object
+
     Class.prototype = prototype;
-   
-    // Enforce the constructor to be what we expect
+
     Class.prototype.constructor = Class;
- 
-    // And make this class extendable
+
     Class.extend = arguments.callee;
    
     return Class;
@@ -58,10 +55,6 @@
   }
 })();
 
-// ###################################################################
-// Constants
-//
-// ###################################################################
 var IS_CHROME = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 var CANVAS_WIDTH = 640;
 var CANVAS_HEIGHT = 640;
@@ -77,12 +70,6 @@ var ALIEN_TOP_ROW = [ { x: 0, y: 68, w: 50, h: 32 }, { x: 0, y: 34, w: 50, h: 32
 var ALIEN_X_MARGIN = 40;
 var ALIEN_SQUAD_WIDTH = 11 * ALIEN_X_MARGIN;
 
-
-
-// ###################################################################
-// Utility functions & classes
-//
-// ###################################################################
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
@@ -137,11 +124,6 @@ var Rect = Class.extend({
 });
 
 
-
-// ###################################################################
-// Globals
-//
-// ###################################################################
 var canvas = null;
 var ctx = null;
 var spriteSheetImg = null;
